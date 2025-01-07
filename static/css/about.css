@@ -1,0 +1,18 @@
+.about {
+    padding-top: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+}
+
+.about h4 {
+    color: #6a6b6c;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+.about h1 {
+    color: darkcyan;
+}

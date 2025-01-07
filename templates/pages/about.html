@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} About {% endblock %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="about">
+
+    <div class="card" style="width: 20rem;">
+        <div class="card-body">
+            <img src="{% static 'images/user.png' %}" style="max-width: 100%;">
+            <h4 class="card-title">About me:</h4>
+            <h1 class="card-text">Lizbeth Ramirez</h1>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
