@@ -1,18 +1,29 @@
-
-.login{
+.signup{
     padding-top: 30px; 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     display: flex; 
+    display: flex;
     justify-content: center;
 }
 
-.login p {
+.signup p {
     color: #6a6b6c;
     margin-top: 12px;
 }
 
-.login h1 {
+.signup h1 {
     color: #13795b;
+}
+
+.form {
+    text-align: left; 
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.form input{
+    width: 100%;
 }

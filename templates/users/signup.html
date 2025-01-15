@@ -1,23 +1,23 @@
 {% extends 'base.html' %}
 
-{% block title %} Login {% endblock %}
+{% block title %} Sign Up {% endblock %}
 
 {% load static %}
 {% block css %}
-<link rel="stylesheet" href="{% static 'css/login.css' %}">
+<link rel="stylesheet" href="{% static 'css/signup.css' %}">
 {% endblock %}
 
 {% block content %}
-<div class="login" style="align-content: center;">
+<div class="signup">
     <div class="card" style="width: 30rem;">
         <div class="card-body">
-            <h1>Welcome to our system</h1>
-            <form method="post">
+            <h1>Create a new account</h1>
+            <form method="post" class="form">
                 {% csrf_token %}
 
                 {{ form.as_p }}
 
-                <button class="btn btn-success w-100">Login</button>
+                <button class="btn btn-success w-100">SignUp</button>
             </form>
         </div>
     </div>

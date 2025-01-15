@@ -14,5 +14,12 @@
 }
 
 .about h1 {
-    color: darkcyan;
+    color: #13795b;
+}
+
+@media(max-width:767px) {
+    /* Rules for Mobiles */
+    img{
+        max-width: 50%;
+    }
 }
